@@ -6,8 +6,8 @@ https://github.com/mobz/elasticsearch-head 的docker化版本。由于原作者�
 注意：这个里面没有Elasticsearch。
 
 ## 如何使用
-1. ```git clone```
-2. ```cd```
+1. ```git clone https://github.com/ReznovHuang/es-head-docker.git```
+2. ```cd es-head-docker```
 3. ```docker build -t reznovhuang/eshead . ``` （注意不要漏掉最后的“.”） 
 4. ```docker run -d --name eshead reznovhuang/eshead```
 
